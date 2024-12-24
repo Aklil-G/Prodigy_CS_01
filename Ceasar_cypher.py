@@ -1,6 +1,5 @@
 
-
-
+#"This is simple python code for Ceasar cypher encryption/decryption"
 
 def caesar_cipher(text, shift, mode="encrypt"):
     """
@@ -28,7 +27,7 @@ def caesar_cipher(text, shift, mode="encrypt"):
     return ''.join(result)
 
 
-# Example usage
+#.....Main......
 if __name__ == "__main__":
     text = input("Enter the text: ")
     shift = int(input("Enter the shift value: "))
